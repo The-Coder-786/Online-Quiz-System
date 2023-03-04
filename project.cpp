@@ -30,7 +30,7 @@ int password;
 	
 	cout<<"\nTO IDENTIFY THAT YOU ARE A TEACHER, PLEASE ENTER THE PASSWORD:\n";
 	cin>>password;
-	if (password==403324)	{
+	if (password==123456)	{
 
 	cout<<"\nPLEASE CHOOSE QUIZ TYPE\n1.  MULTIPLE CHOICES\n2. TRUE AND FALSE\n"<<endl;
 	cout<<"\n\n"<<"PLEASE SELECT THE QUIZ ACCORDING TO THEIR NUMBERS PRESS 1 FOR 1ST QUIZ type"<<endl;
@@ -149,12 +149,12 @@ int password;
     }
    
    case 'S':
-    	int x=0,sapid,course,quantity;
+    	int x=0,id,course,quantity;
 	string name;
 	char ANS1,ANS2,ANS3,ANS4,ANS5,ANS6,ANS7,ANS8,ANS9,ANS10,ANS11,ANS12,ANS13,ANS14,ANS15,ANS16,ANS17,ANS18,ANS19,ANS20,ANS21,ANS22,ANS23,ANS24,ANS25,ANS26,ANS27,ANS28,ANS29,ANS30;
 	cout<<"\nPLEASE ENTER YOUR NAME:\t";
 	cin>>name;
-	cout<<"\nENTER YOUR SAP_ID:\t";
+	cout<<"\nENTER YOUR ID:\t";
 	cin>>sapid;
 	
 	cout<<"\n\nthis quiz includes 5 courses\nevery subject includes 30 MCQS \nplease choose one of them which you want to take:\n\npress 0 for 'Programming Fundamentals' Quiz\npress 1 for 'Discrete Structure' Quiz\npress 2 for 'Applied Physics' Quiz\npress 3 for 'English Composition' Quiz\npress 4 for 'IICT' Quiz\n";
@@ -168,7 +168,7 @@ int password;
 		
 	cout<<"\n-------------------------------------------------------------------------------------------------------------------\n";
 	cout<<"\n-------------------------------------------------------------------------------------------------------------------\n";
-	cout<<"\nNAME:\t"<<name<<"\t\t\t\t\t\t\tSAP_ID:\t"<<sapid<<"\n";
+	cout<<"\nNAME:\t"<<name<<"\t\t\t\t\t\t\tSAP_ID:\t"<<id<<"\n";
 	cout<<"_____________________\t\t\t\t\t\t__________________\n";
 	cout<<"--------------------------------------------------------------------------------------------------------------------\n";
 	cout<<"ENTER THE QUANTITY OF THE QUESTIONS (5,10,15,30)\t";
@@ -410,7 +410,7 @@ break;
 		
 		cout<<"\n-------------------------------------------------------------------------------------------------------------------\n";
 		cout<<"\n-------------------------------------------------------------------------------------------------------------------\n";
-			cout<<"NAME:\t"<<name<<"\t\t\t\t\t\t\tSAP_ID:\t"<<sapid<<"\n";
+			cout<<"NAME:\t"<<name<<"\t\t\t\t\t\t\tSAP_ID:\t"<<id<<"\n";
 		cout<<"_____________________\t\t\t\t\t\t__________________\n";
 		cout<<"--------------------------------------------------------------------------------------------------------------------\n";
 		cout<<"ENTER THE QUANTITY OF THE QUESTIONS (5,10,15,30)\t";
@@ -706,7 +706,7 @@ cout<<"\n                   <---------------------------------------------------
 		
 		cout<<"\n-------------------------------------------------------------------------------------------------------------------\n";
 		cout<<"\n-------------------------------------------------------------------------------------------------------------------\n";
-		cout<<"NAME:\t"<<name<<"\t\t\t\t\t\t\tSAP_ID:\t"<<sapid<<"\n";
+		cout<<"NAME:\t"<<name<<"\t\t\t\t\t\t\tSAP_ID:\t"<<id<<"\n";
 		cout<<"_____________________\t\t\t\t\t\t__________________\n";
 		cout<<"--------------------------------------------------------------------------------------------------------------------\n";
 		cout<<"ENTER THE QUANTITY OF THE QUESTIONS (5,10,15,30)\t";
@@ -1002,7 +1002,7 @@ cout<<"\n                   <---------------------------------------------------
 		
 		cout<<"\n-------------------------------------------------------------------------------------------------------------------\n";
 		cout<<"\n-------------------------------------------------------------------------------------------------------------------\n";
-		cout<<"NAME:\t"<<name<<"\t\t\t\t\t\t\tSAP_ID:\t"<<sapid<<"\n";
+		cout<<"NAME:\t"<<name<<"\t\t\t\t\t\t\tSAP_ID:\t"<<id<<"\n";
 		cout<<"_____________________\t\t\t\t\t\t__________________\n";
 		cout<<"--------------------------------------------------------------------------------------------------------------------\n";
 		cout<<"ENTER THE QUANTITY OF THE QUESTIONS (5,10,15,30)\t";
@@ -1298,7 +1298,7 @@ cout<<"\n                   <---------------------------------------------------
 		
 		cout<<"\n-------------------------------------------------------------------------------------------------------------------\n";
 			cout<<"\n-------------------------------------------------------------------------------------------------------------------\n";
-			cout<<"NAME:\t"<<name<<"\t\t\t\t\t\t\tSAP_ID:\t"<<sapid<<"\n";
+			cout<<"NAME:\t"<<name<<"\t\t\t\t\t\t\tSAP_ID:\t"<<id<<"\n";
 		cout<<"_____________________\t\t\t\t\t\t__________________\n";
 		cout<<"--------------------------------------------------------------------------------------------------------------------\n";
 		cout<<"ENTER THE QUANTITY OF THE QUESTIONS (5,10,15,30)\t";
@@ -1493,7 +1493,7 @@ x=x+1;
 cout<<"your marks are:"<<x;}
 else 
 cout<<"\nFalse\n"<<"correct answer is: ''\n"<<"your marks are:"<<x<<"\n";
-cout<<"\n    <---------------->\n"<<"21. IICT stands foor…? \n a. Information to Intera Common Terminology\n b. Introduction  to International Communication Technology\n c. Introduction to Information and Communication Technology\n d. Information to Introduction and Communication Technology\n";
+cout<<"\n    <---------------->\n"<<"21. IICT stands foorÂ…? \n a. Information to Intera Common Terminology\n b. Introduction  to International Communication Technology\n c. Introduction to Information and Communication Technology\n d. Information to Introduction and Communication Technology\n";
 cin>>ANS21;
 if (ANS21=='c')
 {
