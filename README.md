@@ -1,7 +1,7 @@
 # Online-Quiz-System
 An online quiz system built on C++.  It has inbuilt Student panel along with Admin(Teacher) Panel.
 
-This project is a great improvement of 'Online-Quiz-System' created by Shameer Hayat (https://github.com/ShameerHayat).
+This project is a great improvement of 'Online-Quiz-System' created by Shameer Hayat.
 
 # Added features:
 1. Added Student and Teacher support.
